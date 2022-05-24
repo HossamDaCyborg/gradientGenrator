@@ -1,0 +1,24 @@
+:root{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: absolute;
+    display:grid;
+    place-items: center;
+    height:100%;
+    width:100%;
+    padding: 0;
+    margin: 0;
+
+}
+*{
+    box-sizing: border-box;
+}
+#view{
+
+    height:50%;
+    width:70%;
+    background-image: linear-gradient( to right,  rgb(255,85,180) 0% ,rgb(92,185,255) 100%);
+}
